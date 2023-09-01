@@ -11,7 +11,7 @@ public class Selenium12 {
 	System.setProperty("webdriver.gecko.driver","./Software/geckodriver.exe");
 	WebDriver driver=new FirefoxDriver();
 	driver.get("https://www.facebook.com/");
-	Thread.sleep(2000);
+	//Thread.sleep(2000);
 	driver.findElement(By.cssSelector("input[id='email']")).sendKeys("vinuta");
 	driver.close();
 
